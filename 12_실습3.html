@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background:blue;
+        }
+        .area10{
+            background:red;
+            margin-left:50px;
+            margin-right:50px;
+        }
+        .section{
+            background:green;
+            height:300px;
+            float:left;
+            width:1370px;
+            
+        }
+        .area1{
+            background:yellowgreen;
+            
+        }
+        .area2{
+            background:pink;
+        }
+        .area3{
+            background:aqua;
+        }
+        .block-test1 {
+            height:90px;
+            display: block;
+            margin-left:50px;
+            margin-right:50px;
+            /*display: none;*/
+        }
+        #sidebar-right{
+            background:antiquewhite;
+            float:right;
+            width:84px;
+            height:300px;
+        }
+        #footer{
+            background:purple;
+        }
+        *{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header
+        <div class="block block-test2 area10">nav</div>
+    </div>
+    <div class="section">section
+        <div class="block block-test1 area1">article</div>
+        <div class="block block-test1 area2">article</div>
+        <div class="block block-test1 area3">article</div>
+    </div>
+    <div id="sidebar-right">aside</div>
+    <div id="footer">footer</div>
+</body>
+</html>
